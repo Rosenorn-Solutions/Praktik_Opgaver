@@ -19,7 +19,7 @@ For at kunne arbejde ud fra et IT-professionelt niveau, skal al dokumentation la
 
 **Sekvensdiagram**: 
 - https://sparxsystems.com/resources/tutorials/uml2/sequence-diagram.html
-![Alt Text](https://sparxsystems.com/images/screenshots/uml2_tutorial/seq11.GIF)
+![Alt Text](https://miro.medium.com/v2/resize:fit:720/format:webp/1*LkDapTCD6_xxOKCC3kTzcw.jpeg)
 
 **API Diagram**:
 - https://www.lucidchart.com/blog/why-you-should-create-an-api-diagram
