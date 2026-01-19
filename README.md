@@ -10,9 +10,12 @@ For at kunne arbejde ud fra et IT-professionelt niveau, skal al dokumentation la
 **UML**: 
 - https://simplecode.dk/hvad-er-uml/
 - https://www.geeksforgeeks.org/system-design/unified-modeling-language-uml-class-diagrams/
+
 **Flowchart**:
-https://da.itpedia.nl/2022/11/27/9-belangrijkste-flowchart-symbolen/
+- https://da.itpedia.nl/2022/11/27/9-belangrijkste-flowchart-symbolen/
+
 **Sekvensdiagram**: 
-https://sparxsystems.com/resources/tutorials/uml2/sequence-diagram.html
+- https://sparxsystems.com/resources/tutorials/uml2/sequence-diagram.html
+
 **API Diagram**:
-https://www.lucidchart.com/blog/why-you-should-create-an-api-diagram
+- https://www.lucidchart.com/blog/why-you-should-create-an-api-diagram
