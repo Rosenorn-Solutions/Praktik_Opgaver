@@ -43,10 +43,19 @@ Opgaver Undersøge og dokumentere PantMigService-løsningen:
     - Hvilke processer sker der i kæden fra start til slut? (Knapper trykkes på, pop-up, input af meta data, gemningen, live opslag) 
 
 ## Specifikke opgaver
-> Stillet d. 19/1
+> Den 19/1 - 23/1
 - Beskrive og forklare hvordan PantMigService -> AuthService fungerer
     - Endpoints/ AuthEndpoints (Brugerne)
     - ApplicationDbContext, ApplicationUser og RefreshToken
     - IAuthService
     - IEmailSender
     - UserAccountService, UsernameGenerator og UserManagerExtensions
+
+> Den 26/1 - 30/1
+- Beskrive og forklare hvordan PantMig DB er sat op
+    - DB-typer og funktioner
+    - Datatyper og struktur
+    - Modeller og regler
+
+> Den 2/2 - 6/2
+- Beskrive og forklare sammenhæng mellem DB og Brugeraktiviteter
