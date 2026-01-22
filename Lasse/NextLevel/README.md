@@ -14,10 +14,10 @@ timeline
     title Hacking og CTFs
     Januar  
         : 30/1 - 1/2 -> Hack for a Change CTF
-    Februar : CTF
+    Februar 
         : 12/2 - 14/2 -> 0xFunCTF
-    Marts : CTF
+    Marts 
         : 13/3 - 15/3 -> WolvCTF 
-    April : CTF
+    April 
         : 4/4 - 5/4 -> SillyCTF 2 
 ```
