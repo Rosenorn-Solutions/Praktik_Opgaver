@@ -49,7 +49,11 @@ timeline
     title Tidslinje og datoer
     Januar : Startup periode
         : 17/1 Online møde
-    Februar : Intet
+        : 19/1 Online møde
+        : 22/1 Projekt-pitch "PK" (Nyt projekt)
+        : 27/1 Projekt-møde "PK" 
+        : 28/1 Bibliotek møde
+    Februar : Intet 
 ```
 
 
