@@ -75,7 +75,7 @@ Opgaver Undersøge og dokumentere PantMigService-løsningen:
 - 
 
 ```mermaid
-Pie
+pie
     title test
     "Test1": 40
     "Test2": 40
