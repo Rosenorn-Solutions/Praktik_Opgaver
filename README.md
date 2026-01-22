@@ -49,7 +49,7 @@ timeline
     title Tidslinje og datoer
     Januar : Startup periode
         : 17/1 Online møde
-    Februar : 
+    Februar : Intet
 ```
 
 
