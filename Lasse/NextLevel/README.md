@@ -12,7 +12,7 @@
 ```mermaid
 timeline
     title Hacking og CTFs
-    Januar : CTF 
+    Januar  
         : 30/1 - 1/2 -> Hack for a Change CTF
     Februar : CTF
         : 12/2 - 14/2 -> 0xFunCTF
