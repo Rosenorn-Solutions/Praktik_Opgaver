@@ -46,9 +46,10 @@ Opgaver Undersøge og dokumentere PantMigService-løsningen:
 
 ```mermaid
 timeline
-    title Timeline og datoer
-    19/1 sdf
-    2002 df
+    title Tidslinje og datoer
+    Januar : Startup periode
+        : 17/1 Online møde
+    Februar : 
 ```
 
 
