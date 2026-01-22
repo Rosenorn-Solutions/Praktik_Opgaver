@@ -25,7 +25,9 @@ For at kunne arbejde ud fra et IT-professionelt niveau, skal al dokumentation la
 - https://www.lucidchart.com/blog/why-you-should-create-an-api-diagram
 ![Alt Text](https://corporate-assets.lucid.co/chart/93718b26-176d-4a87-98e0-b3fe2280282f.png?v=1707835449899)
 
-
+**Værktøjer**
+- Draw.io
+- Mermaid 
 
 # Opgaver Uge 4
 ## Baseret på PantMigService 
@@ -43,7 +45,7 @@ Opgaver Undersøge og dokumentere PantMigService-løsningen:
     - Hvilke processer sker der i kæden fra start til slut? (Knapper trykkes på, pop-up, input af meta data, gemningen, live opslag) 
 
 ## Specifikke opgaver
-> Den 19/1 - 23/1
+> D. 19/1 - 23/1
 - Beskrive og forklare hvordan PantMigService -> AuthService fungerer
     - Endpoints/ AuthEndpoints (Brugerne)
     - ApplicationDbContext, ApplicationUser og RefreshToken
@@ -51,11 +53,14 @@ Opgaver Undersøge og dokumentere PantMigService-løsningen:
     - IEmailSender
     - UserAccountService, UsernameGenerator og UserManagerExtensions
 
-> Den 26/1 - 30/1
+
+> D. 26/1 - 30/1
 - Beskrive og forklare hvordan PantMig DB er sat op
     - DB-typer og funktioner
     - Datatyper og struktur
     - Modeller og regler
+> D. 27/1
+- Startupmøde med PO af ny løsning
 
-> Den 2/2 - 6/2
+> D. 2/2 - 6/2
 - Beskrive og forklare sammenhæng mellem DB og Brugeraktiviteter
