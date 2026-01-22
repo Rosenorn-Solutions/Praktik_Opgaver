@@ -1,4 +1,6 @@
-﻿**Profil-setup wizard**
+﻿# Advanceret kommende opgaver 
+
+**Profil-setup wizard**
 
 - **Kontekst**: Efter login (Login.tsx) lander brugere på profilsiden (Profile.tsx), som kan virke overvældende. Vi skal have et guidet, trin-for-trin “Profil-Setup”-forløb for nye brugere og dem, der vil opdatere deres profil.
 - **Mål**: Lav en multi-step wizard, der kører automatisk for ufuldstændige profiler og kan startes igen senere. Gem progression pr. trin, tillad genoptagelse, slut med review og send brugeren tilbage til profilsiden.

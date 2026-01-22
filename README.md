@@ -29,10 +29,41 @@ For at kunne arbejde ud fra et IT-professionelt niveau, skal al dokumentation la
 - Draw.io
 - Mermaid 
 
+
+# Kalender 
+```mermaid
+timeline
+    title Tidslinje og datoer
+    Januar Startup periode : Møde-datoer 
+        : 17/1 Online møde
+        : 19/1 Online møde
+        : 22/1 Projekt-pitch "PK" (Nyt projekt)
+        : 27/1 Projekt-møde "PK" 
+        : 28/1 Bibliotek møde
+        : 30/1 - 1/2 Hack for a Change CTF
+    Februar : Intet 
+```
+
+
+## Specifikationer
+> D. 19/1 - 23/1
+>>- Beskrive og forklare hvordan PantMigService -> AuthService fungerer
+>>    - Endpoints/ AuthEndpoints (Brugerne)
+>>    - ApplicationDbContext, ApplicationUser og RefreshToken
+>>    - IAuthService
+>>    - IEmailSender
+>>    - UserAccountService, UsernameGenerator og UserManagerExtensions
+
+> D. 26/1 - 30/1
+>> - Beskrive og forklare hvordan PantMig DB er sat op
+>> - DB-typer og funktioner
+>>      - Datatyper og struktur
+>> - Modeller og regler
+
 # Opgaver Uge 4
 ## Baseret på PantMigService 
 
-> Siden introduktion til programmering og kode er nødvendig, for at fuldt forstå emnet, løsningen der arbejdes med under resten af praktikken. Forståelsen af løsningen er udgangspunktet for fremtidige opgaver, og interesse-baseret opgaver. 
+Siden introduktion til programmering og kode er nødvendig, for at fuldt forstå emnet, løsningen der arbejdes med under resten af praktikken. Forståelsen af løsningen er udgangspunktet for fremtidige opgaver, og interesse-baseret opgaver. 
 
 Opgaver Undersøge og dokumentere PantMigService-løsningen:
 - Lave eget Repo til Praktik Dokumentation
@@ -44,40 +75,7 @@ Opgaver Undersøge og dokumentere PantMigService-løsningen:
     - Hvordan er det bundet til bruger? (Ejer/ brugerid 1:1 forhold)
     - Hvilke processer sker der i kæden fra start til slut? (Knapper trykkes på, pop-up, input af meta data, gemningen, live opslag) 
 
-```mermaid
-timeline
-    title Tidslinje og datoer
-    Januar Startup periode : Møde-datoer 
-        : 17/1 Online møde
-        : 19/1 Online møde
-        : 22/1 Projekt-pitch "PK" (Nyt projekt)
-        : 27/1 Projekt-møde "PK" 
-        : 28/1 Bibliotek møde
-    Februar : Intet 
-```
 
-
-
-
-
-## Specifikke Datoer
-> D. 19/1 - 23/1
->>- Beskrive og forklare hvordan PantMigService -> AuthService fungerer
->>    - Endpoints/ AuthEndpoints (Brugerne)
->>    - ApplicationDbContext, ApplicationUser og RefreshToken
->>    - IAuthService
->>    - IEmailSender
->>    - UserAccountService, UsernameGenerator og UserManagerExtensions
-
-
-> D. 26/1 - 30/1
->> - Beskrive og forklare hvordan PantMig DB er sat op
->> - DB-typer og funktioner
->>      - Datatyper og struktur
->> - Modeller og regler
-
-> D. 27/1
->>Startupmøde med PO af ny løsning
 
 > D. 2/2 - 6/2
 >> - Beskrive og forklare sammenhæng mellem DB og Brugeraktiviteter
@@ -90,10 +88,3 @@ timeline
 - Ethical Hacking Cisco course, 70 timer. (https://www.netacad.com/courses/ethical-hacker?courseLang=en-US)
 - 
 
-```mermaid
-pie
-    title test
-    "Test1": 40
-    "Test2": 40
-    "Test3": 20
-``` 
