@@ -47,7 +47,7 @@ Opgaver Undersøge og dokumentere PantMigService-løsningen:
 ```mermaid
 timeline
     title Tidslinje og datoer
-    Januar Startup periode : Intro 
+    Januar Startup periode : Møde-datoer 
         : 17/1 Online møde
         : 19/1 Online møde
         : 22/1 Projekt-pitch "PK" (Nyt projekt)
