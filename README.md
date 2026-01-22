@@ -44,23 +44,40 @@ Opgaver Undersøge og dokumentere PantMigService-løsningen:
     - Hvordan er det bundet til bruger? (Ejer/ brugerid 1:1 forhold)
     - Hvilke processer sker der i kæden fra start til slut? (Knapper trykkes på, pop-up, input af meta data, gemningen, live opslag) 
 
-## Specifikke opgaver
+## Specifikke Datoer
 > D. 19/1 - 23/1
-- Beskrive og forklare hvordan PantMigService -> AuthService fungerer
-    - Endpoints/ AuthEndpoints (Brugerne)
-    - ApplicationDbContext, ApplicationUser og RefreshToken
-    - IAuthService
-    - IEmailSender
-    - UserAccountService, UsernameGenerator og UserManagerExtensions
+>>- Beskrive og forklare hvordan PantMigService -> AuthService fungerer
+>>    - Endpoints/ AuthEndpoints (Brugerne)
+>>    - ApplicationDbContext, ApplicationUser og RefreshToken
+>>    - IAuthService
+>>    - IEmailSender
+>>    - UserAccountService, UsernameGenerator og UserManagerExtensions
 
 
 > D. 26/1 - 30/1
-- Beskrive og forklare hvordan PantMig DB er sat op
-    - DB-typer og funktioner
-    - Datatyper og struktur
-    - Modeller og regler
+>> - Beskrive og forklare hvordan PantMig DB er sat op
+>> - DB-typer og funktioner
+>>      - Datatyper og struktur
+>> - Modeller og regler
+
 > D. 27/1
-- Startupmøde med PO af ny løsning
+>>Startupmøde med PO af ny løsning
 
 > D. 2/2 - 6/2
-- Beskrive og forklare sammenhæng mellem DB og Brugeraktiviteter
+>> - Beskrive og forklare sammenhæng mellem DB og Brugeraktiviteter
+
+
+## Bonus Opgaver
+> D. 30/1 - 2/2 
+>> - Hack for a Change 2026 (https://ctftime.org/event/3083)
+
+- Ethical Hacking Cisco course, 70 timer. (https://www.netacad.com/courses/ethical-hacker?courseLang=en-US)
+- 
+
+```Mermaid
+Pie
+    title test
+    "Test1": 40
+    "Test2": 40
+    "Test3": 20
+``` 
