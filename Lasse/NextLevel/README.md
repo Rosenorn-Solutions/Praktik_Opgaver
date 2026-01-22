@@ -16,7 +16,6 @@ timeline
         : 30/1 - 1/2 -> Hack for a Change CTF
     Februar : Datoer
         : 12/2 - 14/2 -> 0xFunCTF
-        : 
     Marts : Datoer
         : 13/3 - 15/3 -> WolvCTF 
     April : Datoer
