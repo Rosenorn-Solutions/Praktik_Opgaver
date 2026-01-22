@@ -44,6 +44,17 @@ Opgaver Undersøge og dokumentere PantMigService-løsningen:
     - Hvordan er det bundet til bruger? (Ejer/ brugerid 1:1 forhold)
     - Hvilke processer sker der i kæden fra start til slut? (Knapper trykkes på, pop-up, input af meta data, gemningen, live opslag) 
 
+```mermaid
+timeline
+    title Timeline og datoer
+    19/1 sdf
+    2002 df
+```
+
+
+
+
+
 ## Specifikke Datoer
 > D. 19/1 - 23/1
 >>- Beskrive og forklare hvordan PantMigService -> AuthService fungerer
