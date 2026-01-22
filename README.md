@@ -74,7 +74,7 @@ Opgaver Undersøge og dokumentere PantMigService-løsningen:
 - Ethical Hacking Cisco course, 70 timer. (https://www.netacad.com/courses/ethical-hacker?courseLang=en-US)
 - 
 
-```Mermaid
+```mermaid
 Pie
     title test
     "Test1": 40
