@@ -85,8 +85,3 @@ Opgaver Undersøge og dokumentere PantMigService-løsningen:
 - Ethical Hacking Cisco course, 70 timer. (https://www.netacad.com/courses/ethical-hacker?courseLang=en-US)
 - 
 
-christine_larsen@outlook.dk
-
-git config --global user.email "christine_larsen@outlook.dk
-"
-git config --global user.name "chrisstineline"
