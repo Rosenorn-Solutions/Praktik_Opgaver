@@ -34,16 +34,31 @@ For at kunne arbejde ud fra et IT-professionelt niveau, skal al dokumentation la
 ```mermaid
 timeline
     title Tidslinje og datoer
-    Januar Startup periode : Møde-datoer 
+    Januar Startup periode  
         : 17/1 Online møde
         : 19/1 Online møde
         : 22/1 Projekt-pitch "PK" (Nyt projekt)
         : 27/1 Projekt-møde "PK" 
-        : 28/1 Bibliotek møde
         : 30/1 - 1/2 Hack for a Change CTF
-    Februar : Intet 
+    Februar 
+        : PK Bruger-undersøgelser
+        
 ```
 
+
+## Opgaver - Baseret på PantMigService 
+
+Siden introduktion til programmering og kode er nødvendig, for at fuldt forstå emnet, løsningen der arbejdes med under resten af praktikken. Forståelsen af løsningen er udgangspunktet for fremtidige opgaver, og interesse-baseret opgaver. 
+
+Opgaver Undersøge og dokumentere PantMigService-løsningen:
+- Lave eget Repo til Praktik Dokumentation
+- Bruge UML-, API-diagrammer og flowcharts til at visualisere funktioner
+- Selvskrive tekniske forklaringer i Servicen
+    - Bruger opretter et opslag --> 
+    - Hvad er et opslag? (Samling af tekst + billede + lokation + dato info i (Meta data))
+    - Hvordan gemmes det? (I en row på en DB)
+    - Hvordan er det bundet til bruger? (Ejer/ brugerid 1:1 forhold)
+    - Hvilke processer sker der i kæden fra start til slut? (Knapper trykkes på, pop-up, input af meta data, gemningen, live opslag) 
 
 ## Specifikationer
 > D. 19/1 - 23/1
@@ -60,31 +75,18 @@ timeline
 >>      - Datatyper og struktur
 >> - Modeller og regler
 
-# Opgaver Uge 4
-## Baseret på PantMigService 
-
-Siden introduktion til programmering og kode er nødvendig, for at fuldt forstå emnet, løsningen der arbejdes med under resten af praktikken. Forståelsen af løsningen er udgangspunktet for fremtidige opgaver, og interesse-baseret opgaver. 
-
-Opgaver Undersøge og dokumentere PantMigService-løsningen:
-- Lave eget Repo til Praktik Dokumentation
-- Bruge UML-, API-diagrammer og flowcharts til at visualisere funktioner
-- Selvskrive tekniske forklaringer i Servicen
-    - Bruger opretter et opslag --> 
-    - Hvad er et opslag? (Samling af tekst + billede + lokation + dato info i (Meta data))
-    - Hvordan gemmes det? (I en row på en DB)
-    - Hvordan er det bundet til bruger? (Ejer/ brugerid 1:1 forhold)
-    - Hvilke processer sker der i kæden fra start til slut? (Knapper trykkes på, pop-up, input af meta data, gemningen, live opslag) 
-
-
-
 > D. 2/2 - 6/2
 >> - Beskrive og forklare sammenhæng mellem DB og Brugeraktiviteter
 
 
 ## Bonus Opgaver
-> D. 30/1 - 2/2 
->> - Hack for a Change 2026 (https://ctftime.org/event/3083)
+> D. 30/1 - 2/2 - Hack for a Change 2026 (https://ctftime.org/event/3083)
 
 - Ethical Hacking Cisco course, 70 timer. (https://www.netacad.com/courses/ethical-hacker?courseLang=en-US)
 - 
 
+christine_larsen@outlook.dk
+
+git config --global user.email "christine_larsen@outlook.dk
+"
+git config --global user.name "chrisstineline"
