@@ -5,16 +5,8 @@ _________________
 # N1
 > Introduktions opgaver.
 
-## Opgave PK Klasser 
-
-I løsningen PK skal der være flere forskellige brugertyper. 
-
-Alle brugere går igennem nogle stadier der skal opnås, før de f.eks. kan være logget ind eller lave en reservation. 
-
-
-Samme idé er til stede i PK og følgende brugere og flow igennem løsningen skal dokumenteres.
-
-## Service Overview
+## PantMig 
+### Service Overview
 > Hvad er det? Hvordan virker det? Lav en simpel forklaring på hvad hver service gør, og hvordan servicene arbejder sammen. 
 
 - Hvad er PantmigService?
@@ -22,9 +14,11 @@ Samme idé er til stede i PK og følgende brugere og flow igennem løsningen ska
 - Hvordan interagerer de med hinanden? 
     - Lav et simpelt diagram over interaktioner. 
 
+## PK 
+> I løsningen PK skal der være flere forskellige brugertyper.   Alle brugere går igennem nogle stadier der skal opnås, før de f.eks. kan være logget ind eller lave en reservation.  
 
 ### User Flow
-> Registrering 
+> Bruger registrering, sikkerhed og  aktivitet. 
 - Lav en model der viser registrering på PK som privat-bruger 
 - Lav en model der viser registrering på PK som virksomheds-bruger 
 - Lav en model der viser kommunikation mellem brugere
@@ -54,6 +48,9 @@ Samme idé er til stede i PK og følgende brugere og flow igennem løsningen ska
 
 *Nedenunder ses en model for User Registration Flow Nedenunder er en model, der viser hvordan brugeren starter på start punktet og møder log-in/ registrerings muligheder.* 
 ![ALTTEXT](https://creately.com/static/assets/guides/user-flow-diagram/user-registration-flow-diagram.webp)
+
+
+
 
 _________________
 # N2
