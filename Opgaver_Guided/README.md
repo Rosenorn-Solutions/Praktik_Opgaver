@@ -96,6 +96,117 @@ _________________
 >
 
 
+# Beginner-Friendly Documentation Models for PantmigService & AuthService
+
+Below are 10 beginner-friendly documentation models you can create to help new developers understand and contribute to the PantmigService and AuthService projects.
+
+---
+
+## 1. Service Overview
+**What it is:**
+A simple explanation of what each service does and how they work together.
+
+**What to include:**
+- What is PantmigService?
+- What is AuthService?
+- How do they interact?
+
+---
+
+## 2. Data Models (Entities)
+**What it is:**
+A list of the main data objects (like User, City, Listing) and what information they store.
+
+**What to include:**
+- Short description of each entity (e.g., User, City, Notification)
+- Key properties for each entity
+
+---
+
+## 3. API Endpoints
+**What it is:**
+A list of the main API routes you can call, what they do, and what data they need.
+
+**What to include:**
+- Example endpoint: `/api/auth/login`
+- What it does
+- What data you send and get back
+
+---
+
+## 4. Authentication & Authorization
+**What it is:**
+How users log in, get tokens, and how the system keeps things secure.
+
+**What to include:**
+- How to log in
+- How tokens work
+- How user roles/permissions work
+
+---
+
+## 5. Messaging & Integration
+**What it is:**
+How the services talk to each other or to other systems (like using RabbitMQ).
+
+**What to include:**
+- What messaging is used for
+- Simple example of a message
+
+---
+
+## 6. Database & Persistence
+**What it is:**
+How data is saved, what databases are used, and how to set them up.
+
+**What to include:**
+- What database is used
+- How to run migrations
+- How to seed data
+
+---
+
+## 7. Background Jobs & Hosted Services
+**What it is:**
+Tasks that run in the background, like seeding the database or sending emails.
+
+**What to include:**
+- What background jobs exist
+- What they do
+
+---
+
+## 8. Real-time Features & Notifications
+**What it is:**
+How the app sends real-time updates (like chat or notifications) to users.
+
+**What to include:**
+- What real-time features exist
+- How notifications work
+
+---
+
+## 9. Validation & File Handling
+**What it is:**
+How the app checks if data is correct and how it handles file uploads.
+
+**What to include:**
+- How data is validated
+- How files are checked for safety
+
+---
+
+## 10. Configuration & Logging
+**What it is:**
+How to set up the app (like with `appsettings.json`) and how logging works.
+
+**What to include:**
+- How to configure the app
+- How to find logs
+
+---
+
+*Use these models as a starting point for writing clear, simple documentation that helps new developers get started quickly!*
 
 
 _________________
