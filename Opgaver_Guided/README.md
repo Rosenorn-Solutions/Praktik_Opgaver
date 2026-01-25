@@ -45,6 +45,8 @@ _________________
 
 ### Data og Databaser
 - Lav et diagram over DB (Bruger) og relation mellem bruger og opslag
+- Lav en model over dataene i PK (alle typer og deres relationer)
+     - Brug beskrivende sprog til at forklare hvad og hvordan. 
 
 *Nedenunder ses en model for User Registration Flow Nedenunder er en model, der viser hvordan brugeren starter på start punktet og møder log-in/ registrerings muligheder.* 
 ![ALTTEXT](https://creately.com/static/assets/guides/user-flow-diagram/user-registration-flow-diagram.webp)
@@ -56,18 +58,22 @@ _________________
 # N2
 > Introduktions opgaver + 10% 
 
-
 ### Service
 - Lav en Service Overview Model, der viser high-level ansvar og funktioner for AuthService og PantmigService
+     - Vis med model hvilke regler de skal følge
+     - Bonus: Er der nogen åbne huller?
 
 ### Messaging
 - Lav en model der viser Real Time Messaging (message broker interactions)
-
+     - Forklar forhold mellem publisher/ consumer
 
 ### Validation og File Handling
 - Lav en model der viser hvordan File Validation fungerer ved upload
 - Lav en model der viser Listing Validation og publication
 
+
+### Handlinger
+- Lav en liste over handlinger der laves, og hvilke relationer hand
 
 ![ALTTEXT](https://imgs.search.brave.com/KE45xOGUTM8uLXp195sxfl0LycXPKpC8O3Pnn25GeDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jbGlj/a3VwLmNvbS9ibG9n/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI0/LzExL1VNTC1hY3Rp/dml0eS1kaWFncmFt/LnBuZw)
 
@@ -102,14 +108,6 @@ Below are 10 beginner-friendly documentation models you can create to help new d
 
 ---
 
-## 1. Service Overview
-**What it is:**
-A simple explanation of what each service does and how they work together.
-
-**What to include:**
-- What is PantmigService?
-- What is AuthService?
-- How do they interact?
 
 ---
 
