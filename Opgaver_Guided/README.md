@@ -122,7 +122,7 @@ Et lidt mere involveret eksempel:
 flowchart TD
     A[Børnefødselsdag] --> B
     
-    subgraph Invitation["📨 Invitation Fase"]
+    subgraph Invitation["📨 Invitations Fase"]
         B{Vil du med?}
         B -->|JA!| C[+1 Gæst]
         B -->|Mangler svar| D[Vent på svar]
@@ -142,9 +142,10 @@ flowchart TD
     
     subgraph Fest["🎉 Fest Dag"]
         I[Afhent kage]
-        I --> J{Er der kage tilbage?}
+        I --> N[Varm kakao☕️ og kage🍰]
+        N --> J{Er der kage tilbage? }
         J -->|Nej| K[Øv bøv - Alt spist!]
-        J -->|Ja| L[Giv kage med hjem]
+        J -->|Ja| L[Giv kage med hjem ]
     end
     
     H -.-> M[Ingen fest for dig]
