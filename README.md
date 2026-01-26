@@ -1,35 +1,6 @@
 # Praktik_Opgaver_Jan
 Opgaver specificeret til praktikanter 2026 hos RSolutions 
 
-## Standarder
-For at kunne arbejde ud fra et IT-professionelt niveau, skal al dokumentation laves og deles som Markdown 
-- Læs om: https://www.markdownguide.org/basic-syntax/
-
-### Modeller 
-**Modeller** til dokumentation
-**UML**: 
-- https://simplecode.dk/hvad-er-uml/
-- https://www.geeksforgeeks.org/system-design/unified-modeling-language-uml-class-diagrams/
-
-![Alt Text](https://simplecode.dk/wp-content/uploads/2022/12/Skaermbillede-2022-12-25-kl.-17.30.01-768x428.png)
-
-**Flowchart**:
-- https://da.itpedia.nl/2022/11/27/9-belangrijkste-flowchart-symbolen/
-![Alt Text](https://www.invensislearning.com/blog/wp-content/uploads/2025/07/Flow-Chart-2.png)
-
-**Sekvensdiagram**: 
-- https://sparxsystems.com/resources/tutorials/uml2/sequence-diagram.html
-![Alt Text](https://miro.medium.com/v2/resize:fit:720/format:webp/1*LkDapTCD6_xxOKCC3kTzcw.jpeg)
-
-**API Diagram**:
-- https://www.lucidchart.com/blog/why-you-should-create-an-api-diagram
-![Alt Text](https://corporate-assets.lucid.co/chart/93718b26-176d-4a87-98e0-b3fe2280282f.png?v=1707835449899)
-
-**Værktøjer**
-- Draw.io
-- Mermaid 
-
-
 # Kalender 
 ```mermaid
 timeline
@@ -46,42 +17,68 @@ timeline
 ```
 
 
-## Opgaver - Baseret på PantMigService 
+## Standarder
+For at kunne arbejde ud fra et IT-professionelt niveau, skal al dokumentation laves og deles som Markdown 
+- Læs om: https://www.markdownguide.org/basic-syntax/
 
-Siden introduktion til programmering og kode er nødvendig, for at fuldt forstå emnet, løsningen der arbejdes med under resten af praktikken. Forståelsen af løsningen er udgangspunktet for fremtidige opgaver, og interesse-baseret opgaver. 
+### Modeller 
+**Modeller** til dokumentation
+**UML**: 
+- https://simplecode.dk/hvad-er-uml/
+- https://www.geeksforgeeks.org/system-design/unified-modeling-language-uml-class-diagrams/
 
-Opgaver Undersøge og dokumentere PantMigService-løsningen:
-- Lave eget Repo til Praktik Dokumentation
-- Bruge UML-, API-diagrammer og flowcharts til at visualisere funktioner
-- Selvskrive tekniske forklaringer i Servicen
-    - Bruger opretter et opslag --> 
-    - Hvad er et opslag? (Samling af tekst + billede + lokation + dato info i (Meta data))
-    - Hvordan gemmes det? (I en row på en DB)
-    - Hvordan er det bundet til bruger? (Ejer/ brugerid 1:1 forhold)
-    - Hvilke processer sker der i kæden fra start til slut? (Knapper trykkes på, pop-up, input af meta data, gemningen, live opslag) 
+- Nedenunder viser UML diagrammerne vist i form af et Klasse Diagram
+![Alt Text](https://simplecode.dk/wp-content/uploads/2022/12/Skaermbillede-2022-12-25-kl.-17.30.01-768x428.png)
 
-## Specifikationer
-> D. 19/1 - 23/1
->>- Beskrive og forklare hvordan PantMigService -> AuthService fungerer
->>    - Endpoints/ AuthEndpoints (Brugerne)
->>    - ApplicationDbContext, ApplicationUser og RefreshToken
->>    - IAuthService
->>    - IEmailSender
->>    - UserAccountService, UsernameGenerator og UserManagerExtensions
+![ALTTEXT](https://imgs.search.brave.com/KE45xOGUTM8uLXp195sxfl0LycXPKpC8O3Pnn25GeDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jbGlj/a3VwLmNvbS9ibG9n/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI0/LzExL1VNTC1hY3Rp/dml0eS1kaWFncmFt/LnBuZw)
 
-> D. 26/1 - 30/1
->> - Beskrive og forklare hvordan PantMig DB er sat op
->> - DB-typer og funktioner
->>      - Datatyper og struktur
->> - Modeller og regler
+---------
 
-> D. 2/2 - 6/2
->> - Beskrive og forklare sammenhæng mellem DB og Brugeraktiviteter
+**Usecase Diagram**
+![Alt text](https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/what-is-a-use-case-diagram-in-UML/UML_use_case_example-800x707.PNG)
+
+---------
+
+**Flowchart**:
+- https://da.itpedia.nl/2022/11/27/9-belangrijkste-flowchart-symbolen/
+![Alt Text](https://www.invensislearning.com/blog/wp-content/uploads/2025/07/Flow-Chart-2.png)
+
+---------
+
+**Userflow**
+![Alt text](https://cdn-proxy.slickplan.com/wp-content/uploads/2021/07/website-login-user-flow.png)
+![Alt text](https://creately.com/static/assets/guides/user-flow-diagram/user-registration-flow-diagram.webp)
+
+---------
+
+**Activity Diagram**
+![Alt text](https://www.researchgate.net/profile/Imed-Bouchrika/publication/262214006/figure/fig2/AS:296783881228294@1447770199957/The-UML-Activity-Diagram.png)
+
+![Alt text](https://cdn-images.visual-paradigm.com/guide/uml/what-is-activity-diagram/08-activity-diagram-with-swimlane-version.png)
+
+---------
+
+**Sekvensdiagram**: 
+- https://sparxsystems.com/resources/tutorials/uml2/sequence-diagram.html
+
+---------
+
+**API Diagram**:
+- https://www.lucidchart.com/blog/why-you-should-create-an-api-diagram
+
+---------
+
+**Deployment diagram**
+- https://edrawmax.wondershare.com/templates/deployment-diagram-for-client-server.html
+![Alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Deployment_Diagram.PNG/1280px-Deployment_Diagram.PNG)
+
+---------
+
+**Værktøjer**
+- Draw.io
+- Mermaid 
 
 
-## Bonus Opgaver
-> D. 30/1 - 2/2 - Hack for a Change 2026 (https://ctftime.org/event/3083)
 
-- Ethical Hacking Cisco course, 70 timer. (https://www.netacad.com/courses/ethical-hacker?courseLang=en-US)
-- 
+
 
