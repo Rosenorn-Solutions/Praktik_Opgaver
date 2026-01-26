@@ -123,7 +123,7 @@ flowchart TD
     C --> F[Gå hjem]
 ```
 -----
-Et lidt mere involveret eksempel: 
+Et lidt mere involveret eksempel, hvor flere aspekter har betydning for "eksekvering" af eventet. Fødselsdags: 
 
 ```mermaid
 flowchart TD
@@ -138,14 +138,19 @@ flowchart TD
     end
     
     C --> E
+    H --> O
     
     subgraph Planlægning["🎂 Planlægnings Fase"]
         E[Alle har svaret]
         E --> F[Bestil kage]
         F --> G[Vent til fødselsdagen]
+        O{Ingen kan komme?}
+        O -->|Nej| P[Bestil lille kage alligevel]
+        P --> Q[Under dynen med dig]
     end
     
     G --> I
+    Q --> R
     
     subgraph Fest["🎉 Fest Dag"]
         I[Afhent kage]
@@ -153,9 +158,12 @@ flowchart TD
         N --> J{Er der kage tilbage? }
         J -->|Nej| K[Øv bøv - Alt spist!]
         J -->|Ja| L[Giv kage med hjem ]
+        R[Afhent lille kage]
+        R --> S[Spis alene 🤤]
+        S --> T[Tillykke med ENEståenhed🎉]
     end
     
-    H -.-> M[Ingen fest for dig]
+    H -.-> M[Ingen fest for dig!]
 ```
 
 
