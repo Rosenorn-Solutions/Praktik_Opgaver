@@ -8,18 +8,6 @@ _________________
 # N1
 > Introduktions opgaver.
 
-## PantMig 
-
-### Service Overview
-> Hvad er det? Hvordan virker det? Lav en simpel forklaring på hvad hver service gør, og hvordan servicene arbejder sammen. 
-
-- Hvad er PantmigService?
-- Hvad er AuthService? 
-- Hvordan interagerer de med hinanden? 
-    - Lav et simpelt diagram over interaktioner. 
-
-
-
 ## PK 
 > I løsningen PK skal der være flere forskellige brugertyper.   Alle brugere går igennem nogle stadier der skal opnås, før de f.eks. kan være logget ind eller lave en reservation.  
 -----
@@ -27,7 +15,9 @@ _________________
 ### User Flow
 > Bruger registrering, sikkerhed og  aktivitet. 
 - Lav en model der viser registrering på PK som privat-bruger 
+    - PK åbnes, personen trykker på opret bruger, tilføjer informationer, afslutter og bliver registreret 
 - Lav en model der viser registrering på PK som virksomheds-bruger 
+    - PK åbnes, personen trykker på virksomheds-bruger, tilføjer information, afslutter og bliver registreret
 - Lav en model der viser kommunikation mellem brugere
 - Lav en model der viser Authentication og Authorization (Auth flow)
 
@@ -72,6 +62,32 @@ _________________
 # N2
 > Introduktions opgaver + 10% 
 
+## PantMig 
+
+### Service Overview
+> Lav dokumentation baseret på repository: https://github.com/Rosenorn-Solutions/PantmigService
+
+> Hvad er det? Hvordan virker det? Lav en simpel forklaring på hvad hver service gør, og hvordan servicene arbejder sammen. 
+
+- Hvad er PantmigService?
+- Hvad er AuthService? 
+    - Beskriv authentication/authorization flow og krav
+- Hvordan interagerer de med hinanden? 
+    - Lav et simpelt diagram over interaktioner. 
+
+### PantmigService dokumentation
+
+- Lav en kort service-beskrivelse (formål, ansvar og scope)
+- Beskriv høj-niveau arkitektur (lag, centrale moduler og afhængigheder)
+- Kortlæg API-endpoints (input/output, statuskoder og fejlscenarier)
+- Lav en “data-kontrakter” sektion for DTO’er (felter, krav, validering)
+- Dokumentér centrale domæne-modeller og deres relationer
+- Beskriv konfiguration (miljøvariabler, secrets og default-værdier)
+- Notér baggrundsprocesser/hosted services (hvad de gør og hvornår de kører)
+- Lav en “Getting Started” sektion (build, run, test og lokal opsætning)
+- Lav en fejl- og supportsektion (typiske fejl, troubleshooting, logs)
+
+
 ### Service
 - Lav en Service Overview Model, der viser high-level ansvar og funktioner for AuthService og PantmigService
      - Vis med model hvilke regler de skal følge
@@ -81,16 +97,24 @@ _________________
 ### Messaging
 - Lav en model der viser Real Time Messaging (message broker interactions)
      - Forklar forhold mellem publisher/ consumer
+- Lav et sekvensdiagram for en besked fra client → broker → consumer
+- List events/queues og hvad de bruges til
+- Beskriv retries, dead-lettering og idempotency (hvad sker ved fejl?)
+- Angiv krav til payloads (schema, versionering, størrelse)
 -----
 
 ### Validation og File Handling
 - Lav en model der viser hvordan File Validation fungerer ved upload
 - Lav en model der viser Listing Validation og publication
+- Dokumentér fil-typer, størrelsegrænser og sikkerhedstjek
+- Beskriv virus-/malware-scan flow (hvis relevant) og fallback
+- Beskriv hvor filer lagres (path/bucket), og hvordan adgang styres
+- Lav en tjekliste for fejlhåndtering (hvad vises til bruger, hvad logges)
 -----
 
 
 ### Handlinger
-- Lav en liste over handlinger der laves, og hvilke relationer hand
+- Lav en liste over handlinger der laves, og hvilke relationer handlinger har til hinanden og løsningen
 
 
 
@@ -98,11 +122,16 @@ _________________
 
 
 # N3
-> 
+> Beskriv automatiske processer, og hvilken betydning de har for løsningernes 
 
 ### Background jobs og Hosted Services
 
+- Enpoints og deres funktioner
+- IAuthService 
 
+###
+
+###
 
 _________________
 # N4
@@ -118,3 +147,8 @@ _________________
 
 
 _________________
+>>    - Endpoints/ AuthEndpoints (Brugerne)
+>>    - ApplicationDbContext, ApplicationUser og RefreshToken
+>>    - IAuthService
+>>    - IEmailSender
+>>    - UserAccountService, UsernameGenerator og UserManagerExtensions
