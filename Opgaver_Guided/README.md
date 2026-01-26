@@ -12,8 +12,8 @@ _________________
 > I løsningen PK skal der være flere forskellige brugertyper.   Alle brugere går igennem nogle stadier der skal opnås, før de f.eks. kan være logget ind eller lave en reservation.  
 -----
 
-### Klasse diagram
-#### User
+## Klasse diagram
+### User
 > Bruger med inhold og aktivitet på platformen. Lav modeller eller diagrammer der viser:
 - Indhold af en brugers profil:
     - Privatbruger
@@ -44,7 +44,22 @@ _________________
     - Notifikations-outbox til delivery-pipeline
     - Event-to-notification mapping
 
+### Cross-reference
+- API-gateway integration pattern:
+    - Service discovery
+    - Request/ response pipeline
+- Event bus
+    - Domæne events (ListingCreated, BookingConfirmed, PaymentCapture)
+    - Event publishers og subscribers
+    - Thread update (Review/ kommentar)
+-  Common types:
+    - Penge, Adresser, TlfNummer, Lokation (Alt der kan genbruges af andre services skal her ned)
+    - Fælles Enums (Currency, Statustype)¨
+    - Results/ Reponse patterns
 
+
+### Infrastructure og Patterns
+- 
 
 Lav en model der viser: 
 - En bruger med to opslag
