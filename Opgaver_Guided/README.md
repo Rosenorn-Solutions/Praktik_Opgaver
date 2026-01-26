@@ -225,8 +225,6 @@ _________________
 ### Handlinger
 - Lav en liste over handlinger der laves, og hvilke relationer handlinger har til hinanden og løsningen
 
-
-
 _________________
 
 
@@ -258,3 +256,4 @@ _________________
     - Unit-test
     - Integrations-test
     - Emuleret app-test
+
