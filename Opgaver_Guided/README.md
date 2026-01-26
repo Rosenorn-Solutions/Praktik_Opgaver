@@ -1,28 +1,35 @@
 # Opgaver baseret på Niveauer
-> Opgaverne stillet her er baseret på niveauer og stiger i sværhedsgraderne. Ligeledes er mængden af hjælp og dokumentation tilpasset niveauet af opgaven. 
+### Opgaverne stillet her er baseret på niveauer og stiger i sværhedsgraderne. Ligeledes er mængden af hjælp og dokumentation tilpasset niveauet af opgaven 
 _________________
 
 
 
 
 # N1
-> Introduktions opgaver.
+**Introduktions opgaver. Hovedsageligt  dokumentations-opgaver på ny løsning (PK) og små udviklingsopgaver**
 
 ## PK 
-> I løsningen PK skal der være flere forskellige brugertyper.   Alle brugere går igennem nogle stadier der skal opnås, før de f.eks. kan være logget ind eller lave en reservation.  
+> I løsningen PK skal der være flere forskellige brugertyper.   Alle brugere går igennem nogle stadier der skal opnås, før de kan logge ind, søge opslag, eller lave en reservation.  
 -----
 
-## Klasse diagram
-### User
-> Bruger med inhold og aktivitet på platformen. Lav modeller eller diagrammer der viser:
-- Indhold af en brugers profil:
+## Klasse diagrammer
+> Definer typer og aktivitet på platformen. Lav modeller eller diagrammer der viser:
+
+#### 1) Brugerne og deres opslag
+-  Indhold af en brugers profil:
     - Privatbruger
     - Virksomhedsbruger
 - Listing Service Domæne Model: 
     - Listing (opslag)
-    - Katorier
+    - Kategorier
     - TilgængelighedsSlot
     - ListingMedia (Billeder) 
+- Media Service Domæne Model:
+    - Medie metadata-entities
+    - Upload processing
+    - Storage abstraktions lag    
+
+#### 2) Brugernes aktivitet imellem hinanden
 - Booking Service Domæne Model:
     - Booking entity med status states
     - Booking-lister og booking-bruger relationships
@@ -34,10 +41,6 @@ _________________
     - Besked og kommentar-Entities
     - Bruger-tråd forhold (Ejer/ Lejer)
     - Thread-Listing association (Tråd bundet til listing/ bruger)
-- Media Service Domæne Model:
-    - Medie metadata-entities
-    - Upload processing
-    - Storage abstraktions lag
 - Notifikations Service Domæne Model:
     - Notifikations template
         - Event template
@@ -65,8 +68,10 @@ _________________
     - PK åbnes, personen trykker på opret bruger, tilføjer informationer, afslutter og bliver registreret 
 - Lav en model der viser registrering på PK som virksomheds-bruger 
     - PK åbnes, personen trykker på virksomheds-bruger, tilføjer information, afslutter og bliver registreret
-- Lav en model der viser kommunikation mellem brugere
+    - Skriv pseudo-kode for en brugeroprettelses-funktion
 - Lav en model der viser Authentication og Authorization (Auth flow)
+- Lav en model der viser kommunikation mellem brugere
+    - Skriv pseudo-kode for en live-chat mellem verificeret brugere
 
 ![Alt text](https://cdn-proxy.slickplan.com/wp-content/uploads/2021/07/website-login-user-flow.png)
 
@@ -161,7 +166,7 @@ _________________
 ### Service Overview
 > Lav dokumentation baseret på repository: https://github.com/Rosenorn-Solutions/PantmigService
 
-> Hvad er det? Hvordan virker det? Lav en simpel forklaring på hvad hver service gør, og hvordan servicene arbejder sammen. 
+> Hvad er det? Hvordan virker det? Lav en simpel forklaring  + model der viser hvad hver service gør, og hvordan servicene arbejder sammen. 
 
 - Hvad er PantmigService?
 - Hvad er AuthService? 
@@ -216,33 +221,30 @@ _________________
 
 
 # N3
-> Beskriv automatiske processer, og hvilken betydning de har for løsningernes 
+> Beskriv automatiske processer, og hvilken betydning de har for løsningernes funktionalitet
 
 ### Background jobs og Hosted Services
-
-- Enpoints og deres funktioner
+- UsernameGenerator og UserManagerExtensions
 - IAuthService 
-
-###
-
-###
-
+- Caching af data og top-level memory spaces
+- ApplicationDbContext, ApplicationUser og RefreshToken
+- IAuthService
+- IEmailSender
 _________________
+
 # N4
->
-
-
+> Programmering og modeller --> udvikles i React Native (crossplatform app)
+- Jævnføre domæne entiteter
+- Bestemme annotationer
+- Jævnføre services (CRUD services)
+- Jævnføre API-kontrakt --> Følg samme struktur som i Identity-service og listing service fundet i PK-repo (udviklet af Fnug)
 
 _________________
 
 # N5
->
-
-
-
-_________________
->>    - Endpoints/ AuthEndpoints (Brugerne)
->>    - ApplicationDbContext, ApplicationUser og RefreshToken
->>    - IAuthService
->>    - IEmailSender
->>    - UserAccountService, UsernameGenerator og UserManagerExtensions
+> Uni-testing og performance analyse + forbedring (db, cashing, user experience) == Mindst 85% dækning. Leggo.
+>> Pentesting (Skal ønkes - Kali opgaver)
+- Dække servives og funktioner med:
+    - Unit-test
+    - Integrations-test
+    - Emuleret app-test
