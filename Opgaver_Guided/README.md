@@ -12,6 +12,42 @@ _________________
 > I løsningen PK skal der være flere forskellige brugertyper.   Alle brugere går igennem nogle stadier der skal opnås, før de f.eks. kan være logget ind eller lave en reservation.  
 -----
 
+### Klasse diagram
+#### User
+> Bruger med inhold og aktivitet på platformen. Lav modeller eller diagrammer der viser:
+- Indhold af en brugers profil:
+    - Privatbruger
+    - Virksomhedsbruger
+- Listing Service Domæne Model: 
+    - Listing (opslag)
+    - Katorier
+    - TilgængelighedsSlot
+    - ListingMedia (Billeder) 
+- Booking Service Domæne Model:
+    - Booking entity med status states
+    - Booking-lister og booking-bruger relationships
+    - Booking timlines og lifecycles 
+- Betalings (Payment) Service Domæne Model:
+    - Betalings-provider integration
+    - Booking-Betalings forhold
+- Besked (Messaging) Domæne Model: 
+    - Besked og kommentar-Entities
+    - Bruger-tråd forhold (Ejer/ Lejer)
+    - Thread-Listing association (Tråd bundet til listing/ bruger)
+- Media Service Domæne Model
+
+
+
+
+Lav en model der viser: 
+- En bruger med to opslag
+    - Opslag 1: En trailer -> Tilgængelig fra Nu til 31. December 2026 
+    - Opslag 2: En trailer -> Tilgængelig fra om to dage - enhed er optaget
+- Viser distance-funktionen når der søges efter en enhed
+
+
+![Alt text](https://d3n817fwly711g.cloudfront.net/uploads/2012/02/Class-diagram.jpg)
+
 ### User Flow
 > Bruger registrering, sikkerhed og  aktivitet. 
 - Lav en model der viser registrering på PK som privat-bruger 
@@ -23,15 +59,6 @@ _________________
 
 ![Alt text](https://cdn-proxy.slickplan.com/wp-content/uploads/2021/07/website-login-user-flow.png)
 -----
-
-
-### User
-> Bruger med inhold og aktivitet på platformen. Lav modeller eller diagrammer der viser:
-- Indhold af en brugers profil
-- En bruger med to opslag
-    - Opslag 1: En trailer -> Tilgængelig fra Nu til 31. December 2026 
-    - Opslag 2: En trailer -> Tilgængelig fra om to dage - enhed er optaget
-- Der viser distance-funktionen når der søges efter en enhed
 
 
 
