@@ -16,6 +16,7 @@ _________________
 
 ## PK 
 > I løsningen PK skal der være flere forskellige brugertyper.   Alle brugere går igennem nogle stadier der skal opnås, før de f.eks. kan være logget ind eller lave en reservation.  
+-----
 
 ### User Flow
 > Bruger registrering, sikkerhed og  aktivitet. 
@@ -23,6 +24,10 @@ _________________
 - Lav en model der viser registrering på PK som virksomheds-bruger 
 - Lav en model der viser kommunikation mellem brugere
 - Lav en model der viser Authentication og Authorization (Auth flow)
+
+![Alt text](https://cdn-proxy.slickplan.com/wp-content/uploads/2021/07/website-login-user-flow.png)
+-----
+
 
 ### User
 > Bruger med inhold og aktivitet på platformen
@@ -33,15 +38,20 @@ _________________
     - Opslag 2: En trailer -> Tilgængelig fra om to dage - enhed er optaget
 - Der viser distance-funktionen når der søges efter en enhed
 
-```mermaid
+![Alt text](https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/what-is-a-use-case-diagram-in-UML/UML_use_case_example-800x707.PNG)
 
+![Alt text](https://creately.com/static/assets/guides/user-flow-diagram/user-registration-flow-diagram.webp)
 
-```
+-----
 
 ### Booking flow
 > Lav modeller over følgende
 - Flow af booking af en trailer
 - Flow på at få lejet sin trailer ud
+
+![Alt text](https://www.researchgate.net/profile/Samrat-Dey-3/publication/338071049/figure/fig10/AS:896784356356116@1590821460568/Flowchart-of-Booking-process.ppm)
+
+-----
 
 ### Data og Databaser
 - Lav et diagram over DB (Bruger) og relation mellem bruger og opslag
@@ -49,7 +59,7 @@ _________________
      - Brug beskrivende sprog til at forklare hvad og hvordan. 
 
 *Nedenunder ses en model for User Registration Flow Nedenunder er en model, der viser hvordan brugeren starter på start punktet og møder log-in/ registrerings muligheder.* 
-![ALTTEXT](https://creately.com/static/assets/guides/user-flow-diagram/user-registration-flow-diagram.webp)
+
 
 
 
@@ -62,14 +72,17 @@ _________________
 - Lav en Service Overview Model, der viser high-level ansvar og funktioner for AuthService og PantmigService
      - Vis med model hvilke regler de skal følge
      - Bonus: Er der nogen åbne huller?
+-----
 
 ### Messaging
 - Lav en model der viser Real Time Messaging (message broker interactions)
      - Forklar forhold mellem publisher/ consumer
+-----
 
 ### Validation og File Handling
 - Lav en model der viser hvordan File Validation fungerer ved upload
 - Lav en model der viser Listing Validation og publication
+-----
 
 
 ### Handlinger
