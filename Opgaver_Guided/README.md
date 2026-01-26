@@ -54,19 +54,8 @@ _________________
     - Thread update (Review/ kommentar)
 -  Common types:
     - Penge, Adresser, TlfNummer, Lokation (Alt der kan genbruges af andre services skal her ned)
-    - Fælles Enums (Currency, Statustype)¨
-    - Results/ Reponse patterns
-
-
-### Infrastructure og Patterns
-- 
-
-Lav en model der viser: 
-- En bruger med to opslag
-    - Opslag 1: En trailer -> Tilgængelig fra Nu til 31. December 2026 
-    - Opslag 2: En trailer -> Tilgængelig fra om to dage - enhed er optaget
-- Viser distance-funktionen når der søges efter en enhed
-
+    - Fælles Enums (Currency, Statustype)
+    - Results/ Reponse patterns (Søgning= results, Approved, wait, declined (regler + actions))
 
 ![Alt text](https://d3n817fwly711g.cloudfront.net/uploads/2012/02/Class-diagram.jpg)
 
@@ -80,10 +69,6 @@ Lav en model der viser:
 - Lav en model der viser Authentication og Authorization (Auth flow)
 
 ![Alt text](https://cdn-proxy.slickplan.com/wp-content/uploads/2021/07/website-login-user-flow.png)
------
-
-
-
 
 -----
 
@@ -92,6 +77,7 @@ Lav en model der viser:
 - Flow af booking af en trailer
 - Flow på at få lejet sin trailer ud
 
+*Nedenunder ses en model for User Registration Flow Nedenunder er en model, der viser hvordan brugeren starter på start punktet og møder log-in/ registrerings muligheder.* 
 ![Alt text](https://www.researchgate.net/profile/Samrat-Dey-3/publication/338071049/figure/fig10/AS:896784356356116@1590821460568/Flowchart-of-Booking-process.ppm)
 
 -----
@@ -101,7 +87,21 @@ Lav en model der viser:
 - Lav en model over dataene i PK (alle typer og deres relationer)
      - Brug beskrivende sprog til at forklare hvad og hvordan. 
 
-*Nedenunder ses en model for User Registration Flow Nedenunder er en model, der viser hvordan brugeren starter på start punktet og møder log-in/ registrerings muligheder.* 
+
+# N1 Scenarie: PK - Der skal lånes!
+Lav modeller der viser: 
+- En bruger (Lejer) er oprettet og logget ind
+    - Brugeren søger efter en trailer
+- En bruger (Udlejer) findes med to opslag
+    - Opslag 1: En trailer -> Tilgængelig fra Nu til 31. December 2026 
+    - Opslag 2: En trailer -> Tilgængelig fra om to dage - enhed er optaget
+- Viser distance-funktionen når der søges efter en enhed
+- Bruger Lejer sender anmodning til Udlejer, på opslag med tilgængelighed 
+- Bruger Udlejer får en anmodning fra Lejer på Opslag 2
+- Udlejer og Lejer laver en aftale (24t)
+- Lejer leverer trailer tilbage, betaler, anmelder
+    - Udlejer afslutter udlejning og bliver vurderet 
+        - Enhed kommer tilbage som tilgængelig
 
 
 
