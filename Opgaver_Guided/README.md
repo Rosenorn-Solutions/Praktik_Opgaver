@@ -103,19 +103,52 @@ Lav modeller der viser:
     - Udlejer afslutter udlejning og bliver vurderet 
         - Enhed kommer tilbage som tilgængelig
 
-
+----
 Eksempel på hvordan scenariet kan vises med: Bager, Brød og Kunder.
 
 ```mermaid
 flowchart TD
-    A[Åben Bager] --> B{Er brødet færdigt?}
+    A[Bager åbner] --> B{Er brødet færdigt?}
     B -->|Ja| C[Køb Brød]
     B -->|Nej| D[Vent på bagning]
     D --> B
     B -->|Udsolgt| E[Gå hjem]
     C --> F[Gå hjem]
 ```
+-----
+Et lidt mere involveret eksempel: 
 
+```mermaid
+flowchart TD
+    A[Børnefødselsdag] --> B
+    
+    subgraph Invitation["📨 Invitation Fase"]
+        B{Vil du med?}
+        B -->|JA!| C[+1 Gæst]
+        B -->|Mangler svar| D[Vent på svar]
+        B -->|Nej tak| H[Afvist]
+        D --> B
+    end
+    
+    C --> E
+    
+    subgraph Planlægning["🎂 Planlægnings Fase"]
+        E[Alle har svaret]
+        E --> F[Bestil kage]
+        F --> G[Vent til fødselsdagen]
+    end
+    
+    G --> I
+    
+    subgraph Fest["🎉 Fest Dag"]
+        I[Afhent kage]
+        I --> J{Er der kage tilbage?}
+        J -->|Nej| K[Øv bøv - Alt spist!]
+        J -->|Ja| L[Giv kage med hjem]
+    end
+    
+    H -.-> M[Ingen fest for dig]
+```
 
 
 _________________
