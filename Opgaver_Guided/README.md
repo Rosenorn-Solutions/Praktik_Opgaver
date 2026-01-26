@@ -34,8 +34,15 @@ _________________
     - Besked og kommentar-Entities
     - Bruger-tråd forhold (Ejer/ Lejer)
     - Thread-Listing association (Tråd bundet til listing/ bruger)
-- Media Service Domæne Model
-
+- Media Service Domæne Model:
+    - Medie metadata-entities
+    - Upload processing
+    - Storage abstraktions lag
+- Notifikations Service Domæne Model:
+    - Notifikations template
+        - Event template
+    - Notifikations-outbox til delivery-pipeline
+    - Event-to-notification mapping
 
 
 
