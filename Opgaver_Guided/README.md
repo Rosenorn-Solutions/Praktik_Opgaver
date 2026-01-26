@@ -82,7 +82,9 @@ _________________
 - Flow af booking af en trailer
 - Flow på at få lejet sin trailer ud
 
-*Nedenunder ses en model for User Registration Flow Nedenunder er en model, der viser hvordan brugeren starter på start punktet og møder log-in/ registrerings muligheder.* 
+*Nedenunder ses en model for User Registration Flow Nedenunder er en model, der viser hvordan brugeren starter på start punktet og møder log-in/ registrerings muligheder.*
+
+
 ![Alt text](https://www.researchgate.net/profile/Samrat-Dey-3/publication/338071049/figure/fig10/AS:896784356356116@1590821460568/Flowchart-of-Booking-process.ppm)
 
 -----
