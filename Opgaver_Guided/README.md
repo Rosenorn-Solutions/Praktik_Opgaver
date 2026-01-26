@@ -104,6 +104,17 @@ Lav modeller der viser:
         - Enhed kommer tilbage som tilgængelig
 
 
+Eksempel på hvordan scenariet kan vises med: Bager, Brød og Kunder.
+
+```mermaid
+flowchart TD
+    A[Åben Bager] --> B{Er brødet færdigt?}
+    B -->|Ja| C[Køb Brød]
+    B -->|Nej| D[Vent på bagning]
+    D --> B
+    B -->|Udsolgt| E[Gå hjem]
+    C --> F[Gå hjem]
+```
 
 
 
